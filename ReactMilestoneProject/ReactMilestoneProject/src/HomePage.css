@@ -1,0 +1,49 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+    margin: 0;
+  }
+
+  .btn {
+    background-color: black;
+    color: #f4511e;
+    border-radius: 0 !important;
+  }
+  
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  h1 {
+    font-weight: bold;
+  }
+  
+  .jumbotron {
+    background-color: #f4511e;
+    color: black;
+    padding: 100px 250px;
+    font-family: Montserrat, sans-serif;
+    height: 90vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }

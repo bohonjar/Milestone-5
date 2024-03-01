@@ -1,0 +1,157 @@
+body {
+    background-color: #f4511e;
+}
+
+.manage {
+	background: black;
+	border: 2px solid black;
+	margin-top: 9%;
+	padding: 3%;
+    width: 800px;
+}
+
+.manage-left {
+	text-align: center;
+	color: #f4511e;
+	margin-top: 4%;
+}
+
+.manage-left input {
+	border: none;
+	border-radius: 1.5rem;
+	padding: 2%;
+	width: 60%;
+	background: #f8f9fa;
+	font-weight: bold;
+	color: #383d41;
+	margin-top: 30%;
+	margin-bottom: 3%;
+	cursor: pointer;
+}
+
+.manage-right {
+	background: #f8f9fa;
+	border-top-left-radius: 10% 50%;
+	border-bottom-left-radius: 10% 50%;
+}
+
+.manage-left img {
+	margin-top: 15%;
+	margin-bottom: 5%;
+	width: 25%;
+}
+
+.manage-left p {
+	font-weight: lighter;
+	padding: 12%;
+	margin-top: -9%;
+}
+
+.manage .manage-form {
+	padding: 10%;
+	margin-top: 10%;
+}
+
+.btnAction {
+	float: right;
+	margin-top: 10%;
+	border: none;
+	border-top-left-radius: 10% 50%;
+	border-bottom-left-radius: 10% 50%;
+	padding: 2%;
+	background: rgb(0, 0, 0);
+	color: rgb(134, 0, 134);
+	font-weight: 600;
+	width: 50%;
+	cursor: pointer;
+}
+
+.btnActionAdd {
+	float: right;
+	margin-top: 5%;
+	border-radius: 7px;
+	background-color: black;
+	color: #f4511e;
+	padding: -2%;
+	font-weight: 600;
+	width: 80%;
+	cursor: pointer;
+}
+
+.btnActionEdit {
+	float: right;
+	margin-top: 5%;
+	border-radius: 7px;
+	background-color: black;
+	color: #f4511e;
+	padding: -2%;
+	font-weight: 600;
+	width: 80%;
+	cursor: pointer;
+}
+
+.btnActionAdd:hover {
+	background-color: rgb(0, 255, 0);
+	color: rgb(0, 0, 0);
+}
+
+.btnActionEdit:hover {
+	background-color: rgb(0, 255, 0);
+	color: rgb(0, 0, 0);
+}
+
+.btnAction:hover {
+	background-color: rgb(0, 255, 0);
+	color: rgb(0, 0, 0);
+}
+
+.resize-programmer {
+	resize: none;
+}
+
+.manage .nav-tabs {
+	margin-top: 3%;
+	border: none;
+	background: #f4511e;
+	border-radius: 1.5rem;
+	width: 28%;
+	float: right;
+}
+
+.manage .nav-tabs .nav-link {
+	padding: 2%;
+	height: 34px;
+	font-weight: 600;
+	color: #fff;
+	border-top-right-radius: 1.5rem;
+	border-bottom-right-radius: 1.5rem;
+}
+
+.manage .nav-tabs .nav-link:hover {
+	border: none;
+}
+
+.manage .nav-tabs .nav-link.active {
+	width: 100px;
+	color: #f4511e;
+	border: 2px solid rgb(255, 255, 255);
+	background-color: black;
+	border-top-left-radius: 1.5rem;
+	border-bottom-left-radius: 1.5rem;
+}
+
+.manage-heading {
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: -15%;
+	color: #495057;
+}
+
+.manage-heading1 {
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: -15%;
+	margin-left: 350px;
+	color: #495057;
+	width: 250px;
+}
